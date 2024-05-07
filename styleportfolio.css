@@ -1,0 +1,78 @@
+header{text-align: center;  color: #eee; padding: 20px;background-color: black;}
+h1{border-radius: 50px;}
+nav{color: #eee; padding: 30px;}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 34%;
+    margin: auto;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    background-color:darkred;
+    text-decoration: none;
+    width: 150px;
+    padding: 100px;
+    padding-top: 10px;
+    
+}
+nav a:hover{
+    padding: 10px;   
+}
+nav li{
+    display: inline-block;
+    margin-left: 2px;
+}
+body {
+    background-image: url("fondnoir.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color:#ffffff;
+}
+
+#container {
+    display:flex;
+    justify-content: space-around;
+}
+
+#articles {
+    width: 75%;
+    backdrop-filter: blur(10px);
+}
+
+.article {
+    border: 1px solid #ffffff;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+#acteur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+
+.links {
+    list-style-type: none;
+    padding: 10px;
+    color: #eee;
+}
+
+
+
+.link:hover {
+    background-color: #eee;
+}
