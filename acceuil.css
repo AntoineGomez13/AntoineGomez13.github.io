@@ -1,0 +1,178 @@
+/* Header */
+header {
+    text-align: center;
+    color: #eee;
+    padding: 20px;
+}
+
+/* Titre */
+header h1 {
+    border-radius: 70px;
+    font-size: 36px; 
+    text-align: center;
+}
+
+.main-title {
+    text-align: center;
+    color: #ff0e43;
+}
+
+/* Navigation */
+nav {
+    color: #eee;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%; /* Ajustement de la largeur */
+    margin: auto;
+    padding: 0;
+}
+
+/* Liens */
+.links {
+    padding: 10px;
+    color: #eee;
+    text-decoration: none; /* Suppression du soulignement par défaut */
+}
+
+.links:hover {
+    color: #fff; /* Changement de couleur au survol */
+}
+
+/* Body */
+body {
+    background-color: ghostwhite;
+    background-image: url(coeur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Définition d'une police générique */
+    margin: 0; /* Suppression des marges par défaut */
+    padding: 0; /* Suppression des espacements internes par défaut */
+    font-size: 110%;
+}
+
+.presentation{
+    position: absolute;
+    font-weight: bold;
+    top: 400px ; right: 1550px;
+}
+
+.presentation2{
+    position: absolute;
+    font-weight: bold;
+    top: 400px ; right: 100px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.6);;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    color: #333;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formcgu {
+    max-width: 1700px;
+    margin: 50px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+#cgu {
+    margin-right: 8px;
+}
+
+.button-56 {
+  align-items: center;
+  background-color:#ff0e43;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ff0e43;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+.abonnement{
+    display: inline-block;
+    margin-left: 125px ;
+}
